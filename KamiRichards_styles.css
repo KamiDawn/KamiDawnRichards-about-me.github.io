@@ -1,0 +1,96 @@
+body {
+    background-color: #a3e4d7;
+    font-family: optima, sans-serif;
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    font-family: optima, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 400%;
+    color: white;
+    font-family: optima, sans-serif;
+}
+p {
+    font-size: 200%;
+    color: white;
+    font-family: optima, sans-serif;
+}
+#About-Me p {
+    font-size: 300%;
+}
+#Classes p {
+    font-size: 150%;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+a:visited {
+    color: lightgray;
+}
+nav {
+    background-color: #a3e4d7;
+    padding: 10px;
+    text-align: center;
+    font-size: 150%;
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates a 2x2 layout */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+.grid-1, .grid-2, .grid-3, .grid-4 {
+    border: 3px solid white; /* White border */
+    border-radius: 10px;
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+.grid-1 {
+    background-color: #ffb6c1
+}
+.grid-2 {
+    background-color: #ffb6c1
+}
+.grid-3 {
+    background-color: #ffb6c1
+}
+.grid-4 {
+    background-color: #ffb6c1
+}
+.grid-1:hover {
+    background-color: #b27f87
+}
+.grid-2:hover {
+    background-color: #b27f87
+}
+.grid-3:hover {
+    background-color: #b27f87
+}
+.grid-4:hover {
+    background-color: #b27f87
+}
+center-image {
+    display: block;
+    margin: 0 auto;
+}
+ul {
+    list-style-type: square;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
