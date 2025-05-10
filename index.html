@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>About Me</title>
+
+<link rel="stylesheet" href="KamiRichards_styles.css">
+
+</head>
+
+<body>
+
+  <center>
+      <img src="ecu-logo.png" alt="ECU Logo" class="center-image" width="300" height="200">
+  </center>
+
+  <h1>Page Navigation</h1>
+
+  <nav>
+      <a href="#About-Me">About Me</a> |
+      <a href="#Classes">Classes</a> |
+      <a href="#Hobbies">Hobbies</a>
+  </nav>
+
+  <br>
+
+  <h2>About Me</h2>
+
+  <center>
+      <img src="kami.png" alt="My Picture" class="center-image" width="200" height="150">
+  </center>
+
+  <center>
+  <h3>Last Updated: 3/29/2025 @ 4:22pm</h3>
+</center>
+
+  <section id="About-Me">
+      <p>My name is <b>Kami Richards.</b></p>
+      <p><i>My Major is Computer Science.</i></p>
+      <p><u>I am a junior.</u></p>
+  </section>
+
+  <br>
+.<section id="Classes">
+  <h2>My Classes</h2>
+  <div class="container">
+      <!-- Course 1 -->
+      <div class="grid-1">
+          <h2>Calc for Bus, Life & So Co (MATH-2613-01)</h2>
+          <p>This course focuses on calculus concepts for life sciences and social sciences. Real-world applications in economics and data analysis make it engaging.</p>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="grid-2">
+          <h2>Data Structures (CPSMA-2103-01)</h2>
+          <p>Exploring data structures like arrays, stacks, and queues. Learning how to efficiently manage data for problem-solving.</p>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="grid-3">
+          <h2>Internet Programming (CMPSC-3323-01)</h2>
+          <p>Introduction to web development covering front-end and back-end technologies like HTML, CSS, JavaScript, and databases.</p>
+      </div>
+
+      <!-- Course 4 -->
+      <div class="grid-4">
+          <h2>SEM-Cloud Fundamentals (CMPSC-4983-01)</h2>
+          <p>Learning about cloud computing infrastructure, scaling services, and cloud-based solutions for modern applications.</p>
+      </div>
+  </div>
+</section>
+
+<br>
+
+  <section id="Hobbies">
+      <p>Hobbies:</p>
+      <ul>
+          <li>Golfing on the weekends.</li>
+          <li>Bowling league on Tuesday nights.</li>
+          <li>Crafting every chance I can.</li>
+      </ul>
+  </section>
+  
+  <section id="Interactive-Grid">
+    <h2>Interactive JavaScript Grid</h2>
+    <div class="grid-container">
+      <!-- Quadrant 1: Arithmetic Calculator -->
+      <div class="grid-item">
+        <h3>Arithmetic Calculator</h3>
+        <form id="arithmeticForm">
+          <input type="number" id="num1" placeholder="First Number" required>
+          <input type="number" id="num2" placeholder="Second Number" required><br>
+          <label><input type="radio" name="operator" value="+" checked> +</label>
+          <label><input type="radio" name="operator" value="-"> -</label>
+          <label><input type="radio" name="operator" value="*"> ×</label>
+          <label><input type="radio" name="operator" value="/"> ÷</label><br>
+          <button type="submit">Calculate</button>
+        </form>
+      </div>
+  
+      <!-- Quadrant 2: Factorial -->
+      <div class="grid-item">
+        <h3>Factorial Calculator</h3>
+        <form id="factorialForm">
+          <input type="number" id="factorialInput" placeholder="Enter integer" min="0" required>
+          <button type="submit">Get Factorial</button>
+        </form>
+      </div>
+  
+      <!-- Quadrant 3: Fibonacci -->
+      <div class="grid-item">
+        <h3>Fibonacci Sequence</h3>
+        <form id="fibonacciForm">
+          <input type="number" id="fibonacciInput" placeholder="Enter N" min="0" required>
+          <button type="submit">Get Fibonacci</button>
+        </form>
+      </div>
+  
+      <!-- Quadrant 4: Max/Min/Range -->
+      <div class="grid-item">
+        <h3>Stats Analyzer</h3>
+        <form id="statsForm">
+          <input type="number" id="stat1" placeholder="Value 1" required>
+          <input type="number" id="stat2" placeholder="Value 2" required>
+          <input type="number" id="stat3" placeholder="Value 3" required>
+          <button type="submit">Analyze</button>
+        </form>
+      </div>
+  
+      <!-- Fifth Grid Item -->
+      <div class="grid-item span-all">
+        <h3>Mailing List Signup</h3>
+        <form id="mailForm">
+          <label>First Name: <input type="text" id="firstName" placeholder="John"></label><br>
+          <label>Last Name: <input type="text" id="lastName" placeholder="Doe"></label><br>
+          <label>Email: <input type="email" id="email" placeholder="john@aol.com"></label><br>
+          <label>ZIP Code: <input type="text" id="zip" placeholder="12345"></label><br>
+          <button type="submit">Sign Up</button>
+          <button type="reset">Reset</button>
+        </form>
+        <div id="mailingListOutput"></div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="KamiRichards_forms.js"></script>
+
+  <br>
+
+  <iframe width="315" height="560" src="https://www.youtube.com/embed/p8hqrKvmc1c" 
+      title="Pro Female Golfer! Vipi Wewe!!😎💀👽👀#shorts  #memes #funnyvideos #funny #life #love #golf #proplayer" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  </iframe>
+
+  <br>
+
+  <a href="https://www.ecok.edu/">ECU Homepage</a>
+
+</body>
+
+</html>
